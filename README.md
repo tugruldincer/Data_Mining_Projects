@@ -5,7 +5,7 @@ There is a dataset which is related to patients’ cancer situation with 10 diff
 
 **fitcknn**
 
-A build-in function as fitcknn of Matlab is used. Steps of the code is as follows:/n
+A build-in function as fitcknn of Matlab is used. Steps of the code is as follows:**
 a)	Dataset is shuffled by using randperm function, then it is separated into two groups as train and validation data. The partition is in the form of 80% for train set and 20% for validation set.
 
 b)	For the distance measure Euclidean distance is used.
