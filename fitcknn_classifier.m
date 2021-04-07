@@ -1,6 +1,3 @@
-%Suleyman_Tugrul_Dincer_2095354
-%PART_I
-
 data = readtable('Part1_Wisconsin Diagnostic Breast Cancer.xlsx');
 %-----------------------------------------------------------%
 % minData = min(Data(:));
