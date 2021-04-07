@@ -3,7 +3,7 @@ Different KNN algorithms are designed for data mining course.
 
 There is a dataset which is related to patients’ cancer situation with 10 different features, and class part for diagnosis. ‘1’ is used for diagnosing the disease, and ‘0’ is used for vice versa. Through the homework, I used the seed function as rng(3).
 
-**fitcknn_file**
+**fitcknn**
 
 A build-in function as fitcknn of Matlab is used. Steps of the code is as follows:
 a)	Dataset is shuffled by using randperm function, then it is separated into two groups as train and validation data. The partition is in the form of 80% for train set and 20% for validation set.
