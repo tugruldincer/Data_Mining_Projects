@@ -25,6 +25,8 @@ I came up with my own KNN function as fuzzyknn and rnearest knn.
 
 a) I implemented fuzzy algorithm with Euclidean distance. I coded fuzzyknn function in another script, then called it to the main script to see the results of different knn value.
 
+b) There are two main script. The one without cross validation is named as mainscript, and the one with 5-fold cross validation is named as cross validation.
+
 b) After classifying validation and train dataset, error rates are coming up with following plot. In that plot, Minimum error rate for validation data is 0.0351, and the optimal knn value for that error rate is 23.
 
 c) When r-Radius Neighbours KNN Algorithm is implemented, optimal r value is chosen as 0.4, and the corresponding error rate is as 7%. For this purpose, I coded rnearest function in another script and called it to the main script to see the results of different knn values.
