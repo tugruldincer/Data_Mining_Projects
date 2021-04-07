@@ -3,7 +3,7 @@ Different KNN algorithms are designed for data mining course.
 
 There is a dataset which is related to patients’ cancer situation with 10 different features, and class part for diagnosis. ‘1’ is used for diagnosing the disease, and ‘0’ is used for vice versa. Through the homework, I used the seed function as rng(3).
 
-**In Part I**
+**fitcknn_file**
 
 A build-in function as fitcknn of Matlab is used. Steps of the code is as follows:
 a)	Dataset is shuffled by using randperm function, then it is separated into two groups as train and validation data. The partition is in the form of 80% for train set and 20% for validation set.
@@ -13,7 +13,7 @@ d)	To predict validation classes, 100 different knn values are used from 1 to 10
 e)	By using plot function we can observe how error differentiate values by changing knn values.
 f)  Optimal knn=41 and error rate is chosen as 0.0614
 
-**Part II**
+**fuzzyknn, r_radius_neighbour implementation**
 
 I came up with my own KNN function as fuzzyknn and rnearest knn.
 a) I implemented fuzzy algorithm with Euclidean distance. I coded fuzzyknn function in another script, then called it to the main script to see the results of different knn value.
