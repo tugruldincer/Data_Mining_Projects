@@ -1,5 +1,3 @@
-%Suleyman_Tugrul_Dincer_2095354
-%PART_II_rNearestNeighbours
 data = readtable('Part1_Wisconsin Diagnostic Breast Cancer.xlsx');
 %----------------------------------------------------------------%
 data=table2array(data);
